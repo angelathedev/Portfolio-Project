@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Angela's Portfolio</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>Angela McByrd</h1>
+      <h3>Software Developer</h3>
+      <nav>
+        <!-- Links for each section of the page. When clicked, each link should jump to that section. -->
+        <a href = "#Introduction">Introduction</a>
+        <a href = "#About Me">About Me</a>
+        <a href = "#Contact">Contact</a>
+      </nav>
+    </header>
+    <hr>
+    <main>
+    <article>
+      <!-- Uploads an image of a profile picture -->
+      <img class = "profile-picture" src="images/angelamcbyrd.png" alt="Black and white photo of Angela"/>
+      <a id = "Introduction"><h2>Introduction</h2></a>
+      <p>Hello, I'm Angela McByrd! I am a current high school math teacher and aspiring software developer. I was born and raised in the beautiful, windy city of Chicago, IL. 
+      </p>
+      <!-- Links the image of Chicago to a google map location of Chicago -->
+      <a href = "https://www.google.com/maps/place/Chicago,+IL/@41.8339037,-87.8720481,11z/data=!3m1!4b1!4m5!3m4!1s0x880e2c3cd0f4cbed:0xafe0a6ad09c0c000!8m2!3d41.8781136!4d-87.6297982"><img class = "city-picture" src = "images/chicagoskyline.jpg" alt = "Skyline of Chicago"/></a>
+    </article>
+      <hr>
+    <article>
+      <!-- Links this section to the navigation links -->
+      <a id = "About Me"><h2>About Me</h2></a>
+      <p>After graduating college, I started teaching middle school science.  I have always had a passion for computer science, so I started an after school club teaching students to code using <a href = "https://www.codecademy.com/" target="\_blank">Codecademy</a> and <a href = "https://code.org/" target="\_blank">Code.org</a>. I am excited for the opportunity to actually apply some of the principles and concepts I have introduced to my students to a career as a developer. I love solving problems! Outside of coding and teaching, I have many hobbies: </p>
+    <h3>Hobbies</h3>
+    <!-- Gives an unordered list of hobbies -->
+    <ul>
+      <li>Board Games</li>
+      <li>Puzzles</li>
+      <li>Exercising</li>
+      <li>Binge watching shows</li>
+      <li>Video games</li>
+      <li>Traveling: top three places I want to travel to</li>
+      <!--Gives a nested, ordered list of places to visit -->
+        <ol>
+          <li>Bali, Indonesia</li>
+          <li>Accra, Ghana</li>
+          <li>Santorini, Greece</li>
+        </ol>
+    </ul>
+    </article>
+      <hr> 
+    <article>
+      <a id = "Contact"><h2>Contact</h2></a>
+      <!-- Opens my LinkedIn page in a new tab -->
+      <a href = "https://www.linkedin.com/in/angelamcbyrd/" target="\_blank">LinkedIn</a>
+      <br>
+      <!-- Opens my GitHub page in a new tab -->
+      <a href = "https://github.com/angelathedev" target="\_blank">GitHub</a>
+      <br>
+    <!-- Opens an email client up with a pre-filled email -->
+      <a href="mailto:mcbyrda@gmail.com?subject=Email Subject Here">Email Me</a>
+    </article>
+    </main>
+    <footer>
+      <p>Thanks for viewing my page!</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
