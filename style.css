@@ -1,0 +1,75 @@
+/*Gives the header a background color, border, and adjusts the padding and margins */
+header{
+  text-align: center;
+  background-color: floralwhite;
+  margin: -5px;
+  padding: 5px;
+  border: 5px solid #000000;
+}
+
+/*Gives the h1 in the header a specific font and size */
+header h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 50px; 
+}
+
+/*Gives all the navigation links a specific font */
+nav{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*Gives all the h2 headers a specific font */
+h2{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*Gives all the h3 headers a specific font */
+h3{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*Give the body a tan background color and centers all the text in the body */
+body{
+  background-color: tan;
+  text-align: center;
+}
+
+/*Aligns the unordered list to the left*/
+ul{
+  text-align: left;
+}
+
+/*Centers the profile image and changes it to a round image*/
+.profile-picture{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  border-radius: 50%;
+}
+
+/*Changes the size (width and height) of the Chicago picture */
+.city-picture{
+  width: 25%;
+  height: 25%;
+}
+
+/*Gives all the articles a margin of 30 px top/bottom and 0 left/right*/
+article{
+  margin: 30px 0; 
+}
+
+/*Formats the color of ANY links based on if they are clicked, visted, hovered, or active */
+a:link    { color: black;  }
+a:visited { color: red;   }
+a:hover   { color: blueviolet; }
+a:active  { color: coral;  }
+
+/*Gives the footer a background color, centers the text, and adjusts the margins and padding.  Also gives a border */
+footer {
+  text-align: center;
+  background-color: floralwhite;
+  margin: 30px 0px 0px 0px;
+  padding: 0px;
+  border: 5px solid #000000;
+}
