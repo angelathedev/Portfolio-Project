@@ -39,6 +39,10 @@ ul{
   text-align: left;
 }
 
+ol{
+ text-align: left;
+}
+
 /*Centers the profile image and changes it to a round image*/
 .profile-picture{
   display: block;
